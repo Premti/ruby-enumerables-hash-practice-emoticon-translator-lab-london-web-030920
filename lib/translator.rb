@@ -25,7 +25,8 @@ def load_library(file_path)
   hash
 end
 
-def get_japanese_emoticon()
+def get_japanese_emoticon(file_path, emoticons)
+  binding.pry
 
 end
 
