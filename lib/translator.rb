@@ -1,6 +1,6 @@
 require 'pry'
 require 'yaml'
-retrieve_emoticons = YAML.load('emoticons.yml')
+retrieve_emoticons = YAML.load('.libemoticons.yml')
 def load_library(file_path)
   hash = {
     :get_meaning => {},
