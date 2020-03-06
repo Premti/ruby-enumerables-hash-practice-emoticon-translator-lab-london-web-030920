@@ -12,6 +12,7 @@ def load_library(file_path)
       symbol_array.push(value[1])
       binding.pry
     end
+    end
   end
   hash = {
     :get_meaning => {},
