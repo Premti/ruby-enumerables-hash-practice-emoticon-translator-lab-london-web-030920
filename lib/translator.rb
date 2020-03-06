@@ -6,6 +6,7 @@ def load_library(file_path)
   retrieve_emoticons.each do |array|
     japanese_array.push(array[1])
   end
+  binding.pry
   hash = {
     :get_meaning => {},
     :get_emoticon => {}
