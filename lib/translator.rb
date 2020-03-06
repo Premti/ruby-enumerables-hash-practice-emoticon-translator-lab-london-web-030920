@@ -1,8 +1,10 @@
 require 'pry'
 require 'yaml'
 retrieve_emoticons = YAML.load('emoticons.yml')
-binding.pry
 def load_library(file_path)
+  japanese_array = []
+  retrieve_emoticons.each do |key, value|
+  end
   hash = {
     :get_meaning => {},
     :get_emoticon => {}
