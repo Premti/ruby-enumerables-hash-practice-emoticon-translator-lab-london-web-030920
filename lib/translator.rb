@@ -11,7 +11,7 @@ def load_library(file_path)
     binding.pry
   end
   hash = {
-    :get_meaning => {:keys => },
+    :get_meaning => {},
     :get_emoticon => {}
   }
   hash
