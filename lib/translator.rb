@@ -15,6 +15,7 @@ def load_library(file_path)
   end
   hash[:get_meaning] = japanese_emoticons_hash
   hash
+  binding.pry
 end
 
 def get_japanese_emoticon
