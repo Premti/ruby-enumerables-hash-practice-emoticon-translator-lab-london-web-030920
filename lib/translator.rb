@@ -28,9 +28,8 @@ end
 def get_japanese_emoticon(file_path, emoticons)
  emoticon_hash = load_library(file_path)
  emoticon_hash.each do |key, value|
-   
+   binding.pry
  end 
- binding.pry
 end
 
 def get_english_meaning
