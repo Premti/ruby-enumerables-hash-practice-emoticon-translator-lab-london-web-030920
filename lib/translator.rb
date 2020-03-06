@@ -14,7 +14,7 @@ def load_library(file_path)
   retrieve_emoticons.each do |key, value| 
       japanese_emoticons_hash[key] = value[1] 
   end
-  hash[:get_meaning] = japanese_emoticons_hash
+  binding.pry
   hash
 end
 
