@@ -1,6 +1,6 @@
 require 'pry'
 require 'yaml'
-
+get_emoticons = 
 
 def load_library(file_path)
   hash = {
