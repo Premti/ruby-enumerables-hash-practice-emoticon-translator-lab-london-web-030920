@@ -8,7 +8,7 @@ def load_library(file_path)
     :get_meaning => {},
     :get_emoticon => {}
   }
-  return retrieve_emoticons
+  hash
 end
 
 def get_japanese_emoticon
