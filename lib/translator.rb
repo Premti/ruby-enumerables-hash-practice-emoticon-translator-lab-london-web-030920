@@ -7,7 +7,7 @@ def load_library(file_path)
   japanese_emoticons_array = []
   #value = ["angel", ["O:)", "japanese symbol"]]
   retrieve_emoticons.each do |key, value| #retrieve_emoticons["angel"] = ["O:)", "japanese symbol"]
-   
+   binding.pry
   end
   
   hash = {
