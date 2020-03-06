@@ -2,8 +2,6 @@ require 'pry'
 require 'yaml'
 retrieve_emoticons = YAML.load_file('./lib/emoticons.yml')
 
-
-
 def load_library(file_path)
   japanese_emoticons_array = []
   retrieve_emoticons.each do |file_path|
