@@ -15,6 +15,7 @@ def load_library(file_path)
       japanese_emoticons_hash = {key => value[1]}
       hash[:get_meaning] = japanese_emoticons_hash
   end
+  binding.pry
   hash
 end
 
