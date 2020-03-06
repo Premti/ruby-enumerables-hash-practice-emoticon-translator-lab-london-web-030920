@@ -4,12 +4,12 @@ require 'yaml'
 
 def load_library(file_path)
   retrieve_emoticons = YAML.load_file('./lib/emoticons.yml')
-  japanese_emoticons_hash = {}
+  japanese_emoticons_hash = []
   #value = ["angel", ["O:)", "japanese symbol"]]
   retrieve_emoticons.each do |value| 
     emoticons_var = {} 
     emoticons_var = {value[0] => value[1][1]}
-    japanese_emoticons_hash = emoticons_var
+    japanese_emoticons_hash.push(emoticons_var)
   end
   hash = {
     :get_meaning => {},
