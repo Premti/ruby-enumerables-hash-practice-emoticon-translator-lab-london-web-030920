@@ -12,10 +12,7 @@ def load_library(file_path)
   }
   #key = "angel" value = ["O:)", "japanese symbol"]]
   retrieve_emoticons.each do |key, value| 
-    japanese_emoticons_array.push(value[1])
-    if japanese_emoticons_hash != value 
-      
-    end
+      japanese_emoticons_hash = key => value[1]
   end
   hash
 end
