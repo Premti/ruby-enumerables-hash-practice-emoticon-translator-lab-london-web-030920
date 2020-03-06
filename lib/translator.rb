@@ -8,8 +8,8 @@ def load_library(file_path)
   #value = ["angel", ["O:)", "japanese symbol"]]
   retrieve_emoticons.each do |value| 
     japanese_emoticons_array = {value[0] => value[1][1]}
-    binding.pry
   end
+  binding.pry
   hash = {
     :get_meaning => {},
     :get_emoticon => {}
