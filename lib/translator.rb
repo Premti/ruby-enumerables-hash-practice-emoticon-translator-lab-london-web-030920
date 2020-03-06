@@ -9,7 +9,6 @@ def load_library(file_path)
   #key = "angel" value = ["O:)", "japanese symbol"]]
   retrieve_emoticons.each do |key, value| 
     value.each do |symbol|
-      symbol_array.push(value)
        binding.pry
     end
   end
