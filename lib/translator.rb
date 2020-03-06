@@ -32,6 +32,7 @@ def get_japanese_emoticon(file_path, emoticons)
    value.each do |value_key, value_value|
      binding.pry
    end
+ end
 end
 
 def get_english_meaning
