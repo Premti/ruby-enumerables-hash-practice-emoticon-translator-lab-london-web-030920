@@ -12,7 +12,6 @@ def load_library(file_path)
       symbol_array.push(value)
     end
   end
-  binding.pry
   hash = {
     :get_meaning => {},
     :get_emoticon => {}
