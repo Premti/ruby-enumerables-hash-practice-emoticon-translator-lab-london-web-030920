@@ -6,7 +6,7 @@ retrieve_emoticons = YAML.load_file('./lib/emoticons.yml')
 
 def load_library(file_path)
   japanese_emoticons_array = []
-  file_path.each do |value|
+  file_path.each do |file_path|
     binding.pry
   end 
   hash = {
