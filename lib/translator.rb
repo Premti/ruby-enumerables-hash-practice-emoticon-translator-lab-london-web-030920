@@ -7,7 +7,7 @@ def load_library(file_path)
   japanese_emoticons_array = []
   japanese_emoticons_hash = {}
   hash = {
-    :get_meaning => {},
+    :get_meaning => japanese_emoticons_hash,
     :get_emoticon => {}
   }
   #key = "angel" value = ["O:)", "japanese symbol"]]
