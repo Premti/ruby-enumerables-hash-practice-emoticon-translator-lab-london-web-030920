@@ -4,7 +4,7 @@ retrieve_emoticons = YAML.load_file('./lib/emoticons.yml')
 
 def japanese_array(value)
   japanese_emoticon_array = []
-  retrieve_emoticons.each |value|
+  retrieve_emoticons.each ||
   binding.pry
 end
 end
