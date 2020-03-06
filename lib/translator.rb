@@ -7,12 +7,10 @@ def load_library(file_path)
   japanese_emoticons_hash = []
   #value = ["angel", ["O:)", "japanese symbol"]]
   retrieve_emoticons.each do |value| 
-    emoticons_var = {} 
-    emoticons_var = {value[0] => value[1][1]}
-    japanese_emoticons_hash.push(emoticons_var)
+    
   end
   hash = {
-    :get_meaning => japanese_emoticons_hash,
+    :get_meaning => {},
     :get_emoticon => {}
   }
   hash
