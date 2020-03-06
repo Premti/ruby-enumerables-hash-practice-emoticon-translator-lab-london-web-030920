@@ -6,7 +6,7 @@ def japanese_array()
   japanese_emoticon_array = []
  
   binding.pry
-end
+
 end
 
 def load_library(file_path)
