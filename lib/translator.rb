@@ -9,6 +9,7 @@ def load_library(file_path)
   retrieve_emoticons.each do |key, value| 
     if japanese_emoticons_array != key 
       japanese_emoticons_array = key[value]
+    end
    binding.pry
   end
   
