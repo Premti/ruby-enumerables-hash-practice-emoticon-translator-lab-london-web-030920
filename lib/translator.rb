@@ -25,8 +25,8 @@ def load_library(file_path)
   hash
 end
 
-def get_japanese_emoticon(load_file = load_library, aemoticon)
-  
+def get_japanese_emoticon(load_file, aemoticon)
+  load_file = load_library
 end
 
 def get_english_meaning
