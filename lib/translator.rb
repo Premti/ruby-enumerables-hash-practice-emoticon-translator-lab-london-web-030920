@@ -7,7 +7,7 @@ def load_library(file_path)
     japanese_array.push(array[1])
   end
   hash = {
-    :get_meaning => {japanese_array},
+    :get_meaning => {},
     :get_emoticon => {}
   }
   hash
