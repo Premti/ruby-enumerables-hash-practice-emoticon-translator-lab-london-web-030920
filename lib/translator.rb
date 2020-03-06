@@ -8,7 +8,7 @@ def load_library(file_path)
   #key = "angel" value = ["O:)", "japanese symbol"]]
   retrieve_emoticons.each do |key, value| 
     if japanese_emoticons_array != key 
-      japanese_emoticons_array = key[value]
+      japanese_emoticons_array = key => value
     end
    binding.pry
   end
