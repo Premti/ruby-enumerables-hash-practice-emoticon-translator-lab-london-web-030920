@@ -9,7 +9,7 @@ def load_library(file_path)
     japanese_emoticons_array.push(value[1][1])
   end
   hash = {
-    :get_meaning => japanese_emoticons_array,
+    :get_meaning => {},
     :get_emoticon => {}
   }
   hash
