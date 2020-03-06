@@ -1,6 +1,6 @@
 require 'pry'
 require 'yaml'
-get_emoticons = YAML.load()
+get_emoticons = YAML.load(File.)
 
 def load_library(file_path)
   hash = {
