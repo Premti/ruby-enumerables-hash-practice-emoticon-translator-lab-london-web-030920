@@ -33,6 +33,9 @@ def get_japanese_emoticon(file_path, emoticons)
      emoticon_recieved = value_key
      binding.pry
    end
+   if emoticon_recieved = value
+     emoticon_recieved
+   end
  end 
  emoticon_recieved
 end
