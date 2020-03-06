@@ -4,11 +4,11 @@ require 'yaml'
 
 def load_library(file_path)
   retrieve_emoticons = YAML.load_file('./lib/emoticons.yml')
-  japanese_emoticons_array = {}
+  japanese_emoticons_hash = {}
   #key = "angel" value = ["O:)", "japanese symbol"]]
   retrieve_emoticons.each do |key, value| 
-    if japanese_emoticons_array != key 
-      japanese_emoticons_array = key => value
+    if japanese_emoticons_hash != key 
+      japanese_emoticons_hash = [key][value]
     end
    binding.pry
   end
