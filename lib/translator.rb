@@ -28,11 +28,7 @@ end
 def get_japanese_emoticon(file_path, emoticons)
   emoticon_recieved = " "
  emoticon_hash = load_library(file_path)
- emoticon_hash.each do |key, value|
-   value.each do |value_key, value_value|
-     binding.pry
-   end
- end
+ emoticon_hash[:get_emoticon]["=D"]
 end
 
 def get_english_meaning
