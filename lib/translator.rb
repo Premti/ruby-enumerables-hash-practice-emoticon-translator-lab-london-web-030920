@@ -10,8 +10,8 @@ def load_library(file_path)
     emoticons_var = {} 
     emoticons_var = {value[0] => value[1][1]}
     japanese_emoticons_hash = emoticons_var
-    binding.pry
   end
+  
   hash = {
     :get_meaning => {},
     :get_emoticon => {}
