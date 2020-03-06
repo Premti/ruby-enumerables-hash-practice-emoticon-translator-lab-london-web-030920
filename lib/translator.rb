@@ -32,8 +32,7 @@ def get_japanese_emoticon(file_path, emoticons)
    value.each do |value_key, value_value|
      emoticon_recieved = value_key
    end
-   if emoticon_recieved = value
-     binding.pry
+   if value[emoticon_recieved]
      emoticon_recieved
    end
  end 
