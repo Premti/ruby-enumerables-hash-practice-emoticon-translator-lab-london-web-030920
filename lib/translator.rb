@@ -10,6 +10,7 @@ def load_library(file_path)
   retrieve_emoticons.each do |key, value| 
       symbol_array.push(value[1])
       if 
+      end
   end
   hash = {
     :get_meaning => {},
