@@ -30,10 +30,10 @@ def get_japanese_emoticon(file_path, emoticons)
  emoticon_hash = load_library(file_path)
  if !emoticon_hash[:get_emoticon]
    "Sorry, that emoticon was not found"
-   binding.pry
  else
    emoticon_hash[:get_emoticon][emoticons]
  end
+ binding.pry
 end
 
 def get_english_meaning
